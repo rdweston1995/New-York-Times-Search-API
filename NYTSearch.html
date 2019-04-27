@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+       <title>Name the Tile</title>
+       <!-- <link rel="stylesheet" type="text/css" href="assets\css\style.css"> -->
+       <!-- <link rel="stylesheet" type="text/css" href="assets\css\reset.css"> -->
+       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta charset="UTF-8">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+       <script src="NYTSearch.js"></script>
+
+       <style>
+       #title {
+           background-color: rgb(4, 4, 80);
+           color: white;
+           text-align: center;
+           top: 0;
+           font-family: 'Lato', sans-serif;
+           font-size: 40px;
+           margin: 0;
+           height: 80px;
+           padding: 30px;
+           border-radius: 5px;
+
+       }
+
+
+
+       </style>
+   </head>
+   <body>
+
+               <div class="row">
+                   <div class="col-auto"></div>
+                   <i class="far fa-newspaper"></i>
+                   <h1 id="title" class="far fa-newspaper"> New York Times Search</h1>
+               </div>
+
+               <form>
+                       <div class="form-group">
+                           <label for="exampleFormControlSelect1">Search Term:</label>
+                           <input class="form-control form-control-lg" id="searchTerm" type="text" placeholder="">
+                       </div>
+                       <div class="form-group">
+                         <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                         <select class="form-control" id="num">
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                         </select>
+                       </div>
+                       <div class="form-group">
+                           <label for="exampleFormControlSelect1">Start Year (Opitional):</label>
+                           <input class="form-control form-control-lg" id="startDate" type="text" placeholder="">
+                       </div>
+                       <div class="form-group">
+                               <label for="exampleFormControlSelect1">End Year (Opitional):</label>
+                               <input class="form-control form-control-lg" id="endDate" type="text" placeholder="">
+                           </div>
+                           <button type="button" id="search" class="btn btn-primary">Search</button>
+                           <button type="button" id="clear" class="btn btn-primary">Clear</button>
+                     </form>
+       <!-- Text -->
+       <div class="row">
+            <div class="col-sm-12" id="show"></div>
+        </div>
+       <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+       </script>
+
+<!-- <script src="assets\javascript\game.js"></script> -->
+
+   </body>
+</html>
